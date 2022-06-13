@@ -40,7 +40,7 @@ for x in range(start_page, paggination):
 		if found == None:
 			print("No image found")
 			continue
-		print("Downloading"+found)
+		print("Downloading "+found)
 		file_name = folder + found.split('/')[-1]
 
 		try:
